@@ -12,12 +12,35 @@ body {
 .header {
     margin-top: 36px;
 }
+.header.fixed {
+    position: sticky;
+    top: 0;
+}
 .content {
     width: 942px;
-    position: relative;
-    left: calc((100% - 942px) / 2);
+    max-width: calc(100% - 48px);
+    /* position: relative;
+    left: calc((100% - 942px) / 2); */
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    border-radius: 24.5px;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.header-body {
     display: flex;
     align-items: center;
+    padding: 8px 0;
 }
 .logo {
     margin-right: auto;
@@ -27,8 +50,6 @@ body {
     margin-right: 28px;
 }
 .nav-item {
-    
-   
 }
 .nav-item-link {
     color: #5f5b53;
@@ -41,18 +62,11 @@ body {
     margin-right: 42px;
 }
 .nav-item-link:hover {
-    font-weight: 600;
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
     text-decoration: underline;
 }
 .btn-sign-up {
     padding: 10px 41px;
-    border-radius: 24.5px;
     background: #171100;
-    color: #fff;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 1.75; /* 175% */
 }
-
