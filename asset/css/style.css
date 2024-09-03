@@ -7,14 +7,18 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    background: #FFFCF4;
+    background: #fffcf4;
 }
 .header {
     margin-top: 36px;
+    height: calc(100vh - 36px);
+    padding-bottom: 65px;
 }
-.header.fixed {
+.header-body {
     position: sticky;
     top: 0;
+    z-index: 1;
+    background: #fffcf4;
 }
 .content {
     width: 1170px;
@@ -215,4 +219,7 @@ body {
     font-weight: 600;
     line-height: 1.66667; /* 166.667% */
 }
-
+.info-course {
+    background-color: #ffb900;
+    height: 600px;
+}
