@@ -223,3 +223,133 @@ body {
     background-color: #ffb900;
     height: 600px;
 }
+/* thông tin các khóa phổ biến */
+.info-courses {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #fff;
+}
+.title-courses {
+    margin-bottom: 16px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26316; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+.sub-title-courses {
+    width: 458px;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66667; /* 166.667% */
+    margin-bottom: 55px;
+}
+.info-courses .content {
+    position: relative;
+}
+.arrow2 {
+    position: absolute;
+    top: 42px;
+    right: 0;
+}
+.list-popular-courses {
+    display: flex;
+    justify-content: space-between;
+}
+.item-popular-courses {
+    width: 370px;
+    border-radius: 12px;
+    border: 2px solid #E2DFDA;
+  
+}
+.img-popular-course {
+    display: block;
+    height: 278px;
+    border-radius: 12px 12px 0px 0px;
+    overflow: hidden;
+}
+.img-pc-1 {
+    width: 106%;
+    position: relative;
+    top: -151px;
+    left: -9px;
+}
+.img-pc-2 {
+    width: 106%;
+    position: relative;
+    top: -154px;
+    left: -17px;
+}
+.img-pc-3 {
+    width: 117%;
+    position: relative;
+    top: -178px;
+    left: -26px;
+}
+.info-courses .desc-courses {
+    margin: 16px 22px 22px;
+}
+.name-popular-course {
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667; /* 166.667% */
+}
+.reviews {
+    display: flex;
+    align-items: center;
+}
+.star {
+    margin-right: 6px;
+    width: 18px;
+}
+.number-star {
+    margin-top: 3px;
+    color: #fea31b;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+.desc-course {
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+    margin-bottom: 12px;
+}
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cost {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667; /* 166.667% */
+}
+.btn-book {
+    border-radius: 25px;
+    background: #171100;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85714; /* 185.714% */
+    padding: 12px 24px;
+    border: none;
+}
+.btn-book:hover {
+    background: #FFB900;
+}
