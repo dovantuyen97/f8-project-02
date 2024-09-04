@@ -9,6 +9,9 @@ body {
     font-family: "Poppins", sans-serif;
     background: #fffcf4;
 }
+.navbar {
+    padding-top: 56px;
+}
 .header {
     margin-top: 36px;
     height: calc(100vh - 36px);
