@@ -11,6 +11,10 @@ body {
 }
 .navbar {
     padding-top: 56px;
+    position: sticky;
+    top: -56px;
+    z-index: 1;
+    background: #fffcf4;
 }
 .header {
     margin-top: 36px;
@@ -18,10 +22,6 @@ body {
     padding-bottom: 65px;
 }
 .header-body {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background: #fffcf4;
 }
 .content {
     width: 1170px;
