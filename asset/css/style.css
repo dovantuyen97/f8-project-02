@@ -527,8 +527,108 @@ body {
     overflow: hidden;
 }
 .img-features {
-     position: relative;
+    position: relative;
     width: 101%;
     top: -146px;
     left: 0px;
+}
+.blog {
+    padding: 96px;
+}
+.blog .title {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26316; /* 126.316% */
+    letter-spacing: -0.76px;
+    align-self: center;
+}
+.blog .desc {
+    margin: 16px auto 55px auto;
+    width: 448px;
+    align-self: center;
+    color: #696262;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+.list-blog {
+    display: flex;
+    justify-content: space-between;
+}
+.item-blog {
+    width: 370px;
+    border-radius: 16px;
+    background: #fff;
+}
+.wrap-img-blog {
+    width: 370px;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+    overflow: hidden;
+}
+.img-blog-1 {
+    position: relative;
+    width: 102%;
+    top: -49px;
+    left: 0;
+}
+.img-blog-2 {
+    position: relative;
+    width: 102%;
+    top: -92px;
+    left: 0px;
+}
+.img-blog-3 {
+    position: relative;
+    width: 102%;
+    top: -145px;
+    left: -7px;
+}
+.desc-blog {
+    padding: 20px 20px 28px 20px;
+}
+.date {
+    width: 160px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e2dfda;
+    display: flex;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+}
+.wrap-point {
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.message {
+    padding: 12px 0;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+.btn-blog {
+    border-radius: 25px;
+    background: #171100;
+    padding: 12px 21px;
+}
+.btn-blog:hover {
+    opacity: 0.8;
+    background: #ffb900;
+    border: none;
+}
+.wrap-img-dot {
+    display: flex;
+    margin: 38px 0 96px;
+}
+.dot {
+    margin: 0 auto;
 }
