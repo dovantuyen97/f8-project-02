@@ -632,3 +632,95 @@ body {
 .dot {
     margin: 0 auto;
 }
+/* footer */
+.footer {
+    background: #2e2100;
+    padding-top: 96px;
+    padding-bottom: 28px;
+}
+.footer .content {
+    display: flex;
+}
+.footer .social {
+    width: 267px;
+    margin-right: 145px;
+}
+.footer .logo {
+    margin-bottom: 18px;
+}
+
+.social .desc {
+    margin-bottom: 18px;
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+}
+.footer .contact {
+    width: 758px;
+}
+.contact .list {
+    display: flex;
+}
+.contact a {
+    text-decoration: none;
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+    margin: 0 0 12px;
+    display: block;
+    max-width: 231px;
+    cursor: pointer;
+}
+.contact .title {
+    margin-bottom: 14px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+.contact .line {
+    background: #59554b;
+    width: 130px;
+    height: 1px;
+    margin-bottom: 28px;
+}
+.item.company {
+    width: 130px;
+    margin-right: 130px;
+}
+.item.support {
+    width: 137px;
+    margin-right: 130px;
+}
+.item.address {
+    width: 231px;
+}
+.first-word {
+    display: inline-block;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.85714; /* 185.714% */
+}
+.content.line {
+    height: 1px;
+    background: #59554b;
+    margin-top: 26px;
+}
+.content.soures {
+    display: block;
+    margin-top: 28px;
+    color: #807d74;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+}
